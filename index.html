@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Validación</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form id="miFormulario">
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" class="validatable" readonly>
+        </div>
+        <div>
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" class="validatable" readonly>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="text" id="email" class="validatable" readonly>
+        </div>
+        <div>
+            <label for="telefono">Teléfono:</label>
+            <input type="text" id="telefono" class="validatable" readonly>
+        </div>
+        <div>
+            <label for="asunto">Asunto:</label>
+            <input type="text" id="asunto" class="validatable" readonly>
+        </div>
+        <div>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" class="validatable" readonly></textarea>
+        </div>
+        <div class="estrellas">
+            <!-- Aquí irían las imágenes de las estrellas -->
+        </div>
+        <button type="button" id="cancelButton">Cancelar</button>
+        <button type="reset" id="resetButton">Reiniciar</button>
+        <button type="submit" id="submitButton">Enviar</button>
+    </form>
+
+    <script src="./script.js"></script>
+</body>
+</html>
